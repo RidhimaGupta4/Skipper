@@ -1,11 +1,11 @@
 # Katana ML Skipper
-[![PyPI - Python](https://img.shields.io/badge/python-v3.7+-blue.svg)](https://github.com/katanaml/katana-skipper)
-[![GitHub Issues](https://img.shields.io/github/issues/katanaml/katana-skipper.svg)](https://github.com/katanaml/katana-skipper/issues)
-[![Current Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/katanaml/katana-skipper)
+[![PyPI - Python](https://img.shields.io/badge/python-v3.7+-blue.svg)](https://github.com/ridhimagu/Skipper)
+[![GitHub Issues](https://img.shields.io/github/issues/katanaml/katana-skipper.svg)](https://github.com/ridhimagu/Skipper/issues)
+[![Current Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/ridhimagu/Skipper)
 
 This is a simple and flexible ML workflow engine. It helps to orchestrate events across a set of microservices and create executable flow to handle requests. Engine is designed to be configurable with any microservices. Enjoy!
 
-![Skipper](https://github.com/katanaml/katana-skipper/blob/master/skipper.png)
+![Skipper](https://github.com/ridhimagu/Skipper/blob/master/skipper.png)
 
 Engine and Communication parts are generic and can be reused. A group of ML services is provided for sample purposes. You should replace a group of services with your own. The current group of ML services works with Boston Housing data. Data service is fetching Boston Housing data and converts it to the format suitable for TensorFlow model training. Training service builds TensorFlow model. Serving service is scaled to 2 instances and it serves prediction requests.
 
@@ -86,12 +86,6 @@ NGINX Ingress Controller logs:
 kubectl logs -n ingress-nginx -f <POD NAME>
 ```
 
-Skipper API logs:
-
-```
-kubectl logs -n katana-skipper -f -l app=skipper-api
-```
-
 Remove Kubernetes services:
 
 ```
@@ -100,13 +94,13 @@ Remove Kubernetes services:
 
 ### Components
 
-* **[api](https://github.com/katanaml/katana-skipper/tree/master/api)** - Web API implementation
-* **[workflow](https://github.com/katanaml/katana-skipper/tree/master/workflow)** - workflow logic
-* **[services](https://github.com/katanaml/katana-skipper/tree/master/services)** - a set of sample microservices, you should replace this with your own services. Update references in docker-compose.yml
-* **[rabbitmq](https://github.com/katanaml/katana-skipper/tree/master/rabbitmq)** - service for RabbitMQ broker
-* **[skipper-lib](https://github.com/katanaml/katana-skipper/tree/master/skipper-lib)** - reusable Python library to streamline event communication through RabbitMQ
-* **[skipper-lib-js](https://github.com/katanaml/katana-skipper/tree/master/skipper-lib-js)** - reusable Node.js library to streamline event communication through RabbitMQ
-* **[logger](https://github.com/katanaml/katana-skipper/tree/master/logger)** - logger service
+* **[api](https://github.com/ridhimagu/Skipper/tree/master/api)** - Web API implementation
+* **[workflow](https://github.com/ridhimagu/Skipper/tree/master/workflow)** - workflow logic
+* **[services](https://github.com/ridhimagu/Skipper/tree/master/services)** - a set of sample microservices, you should replace this with your own services. Update references in docker-compose.yml
+* **[rabbitmq](https://github.com/ridhimagu/Skipper/tree/master/rabbitmq)** - service for RabbitMQ broker
+* **[skipper-lib](https://github.com/ridhimagu/Skipper/tree/master/skipper-lib)** - reusable Python library to streamline event communication through RabbitMQ
+* **[skipper-lib-js](https://github.com/ridhimagu/Skipper/tree/master/skipper-lib-js)** - reusable Node.js library to streamline event communication through RabbitMQ
+* **[logger](https://github.com/ridhimagu/Skipper/tree/master/logger)** - logger service
 
 ### API URLs
 
