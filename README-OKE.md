@@ -1,10 +1,6 @@
-# Katana ML Skipper OKE
+# ML Skipper OKE
 
 Deployment Guide for Oracle Cloud Infrastructure (OKE).
-
-## Author
-
-Katana ML, Andrej Baranovskij
 
 ## Instructions
 
@@ -19,7 +15,7 @@ Katana ML, Andrej Baranovskij
 4. Clone Skipper repo
 
 ```
-git clone https://github.com/katanaml/katana-skipper
+git clone https://github.com/ridhimagu/Skipper
 ```
 
 5. Edit rabbitmq/rabbit-statefulset.yaml file, change storageClassName to 'oci'
@@ -75,7 +71,3 @@ Check Load Balancer IP:
 ![LoadBalancer](https://github.com/katanaml/katana-skipper/blob/master/oke-loadbalancer.png)
 
 13. More info about Kubernetes cluster management on [OKE](https://docs.oracle.com/en/learn/container_engine_kubernetes/#introduction)
-
-## License
-
-Licensed under the Apache License, Version 2.0. Copyright 2020-2021 Katana ML, Andrej Baranovskij. [Copy of the license](https://github.com/katanaml/katana-pipeline/blob/master/LICENSE).
