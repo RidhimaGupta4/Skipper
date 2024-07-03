@@ -1,4 +1,4 @@
-# Katana ML Skipper
+# ML Skipper
 [![PyPI - Python](https://img.shields.io/badge/python-v3.7+-blue.svg)](https://github.com/ridhimagu/Skipper)
 [![GitHub Issues](https://img.shields.io/github/issues/katanaml/katana-skipper.svg)](https://github.com/ridhimagu/Skipper/issues)
 [![Current Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/ridhimagu/Skipper)
