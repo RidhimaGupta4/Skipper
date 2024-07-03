@@ -139,26 +139,8 @@ kubectl -n rabbits port-forward rabbitmq-0 15672:15672
 
 * **[PyPI](https://pypi.org/project/skipper-lib/)** - skipper-lib is on PyPI
 
-## Skipper Library on NPM
-
-* **[NPM](https://www.npmjs.com/package/@katanaml/skipper-lib-js)** - skipper-lib-js is on NPM
-
-## Cloud Deployment Guides
-
-* **[OKE](https://github.com/katanaml/katana-skipper/blob/master/README-OKE.md)** - deployment guide for Oracle Container Engine for Kubernetes
-
-* **[GKE](https://github.com/katanaml/katana-skipper/blob/master/README-GKE.md)** - deployment guide for Google Kubernetes Engine
-
 ## Usage
 
 You can use Skipper engine to run Web API, workflow and communicate with a group of ML microservices implemented under services package.
 
 Skipper can be deployed to any Cloud vendor with Kubernetes or Docker support. You can scale Skipper runtime on Cloud using Kubernetes commands.
-
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/nXHDSehjxV0/0.jpg)](https://www.youtube.com/watch?v=nXHDSehjxV0 "MLOps: Extend Skipper ML Services")
-
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/Xx5mrRMRXKQ/0.jpg)](https://www.youtube.com/watch?v=Xx5mrRMRXKQ "BIY Workflow with FastAPI, Python and Skipper")
-
-## License
-
-Licensed under the Apache License, Version 2.0. Copyright 2020-2021 Katana ML, Andrej Baranovskij. [Copy of the license](https://github.com/katanaml/katana-skipper/blob/master/LICENSE).
