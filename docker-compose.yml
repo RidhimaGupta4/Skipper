@@ -211,6 +211,7 @@ services:
     depends_on:
       - rabbitmq
     restart: on-failure
+    
   # Sample set of services, you should replace with your own services
 
   nginx:
