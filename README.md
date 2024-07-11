@@ -3,7 +3,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/katanaml/katana-skipper.svg)](https://github.com/ridhimagu/Skipper/issues)
 [![Current Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/ridhimagu/Skipper)
 
-This is a simple and flexible ML workflow engine. It helps to orchestrate events across a set of microservices and create executable flow to handle requests. Engine is designed to be configurable with any microservices. Enjoy!
+This is a simple and flexible ML workflow engine. It helps to orchestrate events across a set of microservices and create executable flow to handle requests. Engine is designed to be configurable with any microservices.
 
 ![Skipper](https://github.com/katanaml/katana-skipper/blob/master/skipper.png)
 
